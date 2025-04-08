@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Arial', cursive, sans-serif;
+  background: linear-gradient(to bottom, #e8f5ff, #ffffff);
+  color: #6b2c0d;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.left, .right {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.left {
+  text-align: center;
+}
+
+.left h2 {
+  color: #b45309;
+  font-size: 22px;
+}
+
+.left h1 {
+  font-size: 36px;
+  color: #739dd6;
+  margin: 10px 0;
+}
+
+.baloes {
+  max-width: 250px;
+}
+
+.confirm-text {
+  color: #b45309;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.convite-texto {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #fcd9b6;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  background-color: #d3f1f8;
+  color: #b45309;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0e8f0;
+}
+
+#mensagem-enviada {
+  color: green;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
