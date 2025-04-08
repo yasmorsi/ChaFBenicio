@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chá de Fraldas do Benício</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h2>CHÁ DE FRALDAS DO</h2>
+      <img src="002.png" alt="Benício com balões" class="baloes" />
+      <h1>Benício</h1>
+    </div>
+
+    <div class="right">
+      <p class="convite-texto">
+        Pra gente preparar tudo com muito amor e cuidado, escreve seu nome aqui embaixo se for vir encher o Benício de carinho com a gente!
+      </p>
+      <form action="https://formsubmit.co/alvesmartins12123@gmail.com" method="POST">
+  <input type="hidden" name="_subject" value="Nova confirmação de presença!">
+  <input type="hidden" name="_captcha" value="false">
+  <label for="name"><strong>Nome:</strong></label>
+  <input type="text" id="name" name="name" placeholder="Insira aqui sua resposta..." required />
+  <button type="submit">confirmar</button>
+</form>
+      <p id="mensagem-enviada" style="display:none;">Obrigada por confirmar! 💙</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
